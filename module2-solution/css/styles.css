@@ -1,0 +1,120 @@
+body{
+	font-family:Georgia, serif;
+}
+
+h1{
+	text-align:center;
+}
+
+div.col-lg-3, .col-md-6, .col-md-12, .col-sm-12 {
+	border: 2px solid black;
+	background-color: #B8B8B8;
+	margin: 2%;
+	
+	}
+
+h2{
+	box-sizing:border-box;
+	margin: 0;
+    padding: 3px;
+	position:relative;
+	top:0;
+	right:0;
+  	float:right;
+	clear: both;
+	text-align:center;
+	border: 1px solid black;
+	display: inline-block;
+	margin-top: 0;
+	width: 120px;
+}
+
+#chicken{
+	background-color: #FFFF00;
+	 
+}
+
+#beef{
+	background-color: #CC0033;
+	color: white;
+}
+
+#sushi{
+	background-color: #FFFF99;
+
+}
+.row {
+  width: 100%;
+}
+
+
+@media (min-width: 992px) {
+.col-lg-3 {
+    float: left;
+    width: 28%;
+	  }
+div.col-lg-3 >p{
+	box-sizing:border-box;
+	padding-top: 5%;
+padding-left: 5%;
+padding-right: 3%;
+	}
+	h2{
+	  font-size: 95%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .col-md-6 {
+    float: left;
+    width: 45%;
+	font-size: 125%;
+  }
+  
+  .col-md-12 {
+	  float:left;
+	  width: 95%;
+	  font-size: 125%;
+  }
+  h2{
+	  font-size: 95%;
+	}  
+	  
+  div.col-md-12 > p{
+	box-sizing:border-box;
+	margin-top: 1%;
+	padding-top:5%;
+padding-left: 5%;
+padding-right: 3%;
+	}
+	
+	
+  div.col-md-6 >p{
+	box-sizing:border-box;
+	margin-top: 4%;
+	padding-top:5%;
+padding-left: 5%;
+padding-right: 3%;
+	}
+}
+
+@media (max-width: 767px) {
+ div.col-sm-12 {
+    float:left;
+	width: 90%;
+	font-size: 125%;
+	
+  }
+  
+  div.col-sm-12 >p{
+	box-sizing:border-box;
+	margin-top: 6%;
+	padding-top:3%;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+h2{
+	  font-size: 95%;
+	}
+	}
